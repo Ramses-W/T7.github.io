@@ -1,0 +1,204 @@
+body {
+    background-color: beige;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+
+}
+#LOGO {
+    width: 30%;
+}
+#LOGO img {
+    width: 50%;
+}
+.m1 {
+    display: flex;
+    padding: 10px;
+    width: 12%;
+    height: 50px;
+    margin: 10px;
+}
+.m1 i {
+    padding: 5px;
+}
+.m2 {
+    display: flex;
+    padding: 10px;
+    width: 9%;
+    height: 50px;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.A1:hover {
+    color: white;
+    background-color: #171d25;
+    border-radius: 40px;
+}
+.A2:hover {
+    background-color: white;
+    border-radius: 40px;
+}
+.A3:hover {
+    background-color: #171d25;
+    color: white;
+    border-radius: 30px;
+}
+.m1 h3 {
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+}
+.m2 h3 {
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#P1 {
+    display: flex;
+}
+.T1 {
+    padding: 5px;
+    width: 50%;
+}
+.T1 img {
+    width: 100%;
+}
+.P1 {
+    width: 50%;
+    padding: 5px;
+    background-size: cover;
+    position: relative;
+}
+.P1 img {
+    width: 100%;
+    opacity: 30%;
+}
+.P1 h2 {
+
+    margin-top: 50px;
+    margin-left: 70px;
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.P1 h1 {
+    margin-top: 150px;
+    margin-left: 350px;
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+    font-size: 2vh;
+    position: absolute;
+    top: 120px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid ;
+    border-radius: 30px;
+    background-color: #171d25;
+    color: white;
+}
+.S1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 90px;
+    bottom: 100px;
+}
+.S1 div {
+    text-align: center;
+    width: 20%;
+}
+.S1 a>p {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #171d25;
+}
+#P2 {
+    display: flex;
+}
+.T2 {
+    width: 50%;
+    padding: 5px;
+    background-size: cover;
+    position: relative;
+}
+.T2 img {
+    width: 100%;
+    opacity: 30%;
+}
+.T2 h2 {
+    margin-top: 100px;
+    margin-left: 70px;
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.T2 h1 {
+    margin-top: 150px;
+    margin-left: 310px;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    font-size: 2vh;
+    position: absolute;
+    top: 180px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid ;
+    border-radius: 30px;
+    background-color: #171d25;
+    color: white;
+}
+.P2 {
+    padding: 5px;
+    width: 50%;
+}
+.P2 img {
+    width: 100%;
+}
+#politica {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #171d25;
+    color: white;
+}
+.PO1 {
+    text-decoration: none;
+    color: white;
+}
+#iconos {
+    display: flex;
+    width: 8%;
+}
+#iconos i {
+    width: 25%;
+    padding: 5px;
+}
+footer {
+    background-size: 100px 100px;
+    text-align: center;
+}
